@@ -1,0 +1,167 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Contact &amp; Feedback | Namaste Trek &amp; Tours</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <header class="site-header">
+         <nav class="navbar">
+            <a href="index.html" class="logo">
+               <div class="logo-circle">NT</div>
+               <div class="logo-text">
+                  <span>Namaste Trek &amp; Tours</span>
+                  <span>Travel Agency · Nepal</span>
+               </div>
+            </a>
+            <div class="nav-links">
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="services.html">Packages</a>
+               <a href="gallery.html">Gallery</a>
+               <a href="ika-lessons.html">IKAs</a>
+               <a href="comparison.html">Comparison</a>
+               <a href="contact.html" class="active">Contact</a>
+            </div>
+         </nav>
+      </header>
+      <main class="wrapper">
+         <section class="section">
+            <div class="section-header">
+               <div class="section-kicker">Get in Touch</div>
+               <h1 class="section-title">Contact &amp; Trip Request Form</h1>
+               <p class="section-subtitle">
+                  Use this form to send us your questions or to request a sample
+                  itinerary. In a real website, this form would send an email or
+                  store the data in a database.
+               </p>
+            </div>
+            <form class="form-card">
+               <div class="form-row">
+                  <div class="form-group">
+                     <label for="name">Full Name</label>
+                     <input id="name" type="text" name="name" placeholder="Your full name" required />
+                  </div>
+                  <div class="form-group">
+                     <label for="email">Email Address</label>
+                     <input id="email" type="email" name="email" placeholder="you@example.com" required />
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="form-group">
+                     <label for="trip-type">Trip Type</label>
+                     <select id="trip-type" name="trip-type">
+                        <option value="">Choose a trip type</option>
+                        <option value="everest">Everest Base Camp Trek</option>
+                        <option value="annapurna">Annapurna Trek</option>
+                        <option value="city">City &amp; Cultural Tour</option>
+                        <option value="custom">Custom Trip</option>
+                     </select>
+                  </div>
+                  <div class="form-group">
+                     <label for="travelers">Number of Travelers</label>
+                     <input id="travelers" type="number" min="1" name="travelers" value="2" />
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label for="message">Tell us about your ideal trip</label>
+                  <textarea id="message" name="message"
+                     placeholder="Dates, budget, fitness level, and any special requests."></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Submit (Demo Only)</button>
+            </form>
+         </section>
+         <section class="section">
+            <div class="section-header">
+               <div class="section-kicker">Traveler Feedback</div>
+               <h2 class="section-title">People Feedback &amp; Ratings</h2>
+               <p class="section-subtitle">
+                  Example ratings from “travelers” to show how the site might display
+                  social proof in the future.
+               </p>
+            </div>
+            <div class="card-grid">
+               <div class="card">
+                  <h3 class="card-title">Alex – USA</h3>
+                  <p><strong>Rating:</strong> ★★★★★</p>
+                  <p>
+                     “The Everest Base Camp trek was challenging but amazing. Our guide
+                     kept us safe and helped us acclimatize slowly.”
+                  </p>
+               </div>
+               <div class="card">
+                  <h3 class="card-title">Fatima – UAE</h3>
+                  <p><strong>Rating:</strong> ★★★★☆</p>
+                  <p>
+                     “The Kathmandu &amp; Pokhara tour was beautiful. I especially enjoyed
+                     the cultural dinner and local music.”
+                  </p>
+               </div>
+               <div class="card">
+                  <h3 class="card-title">Luca – Italy</h3>
+                  <p><strong>Rating:</strong> ★★★★★</p>
+                  <p>
+                     “Excellent communication before the trip. I liked that the company
+                     supports local guides and small businesses.”
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section class="section">
+            <div class="card">
+               <h2 class="card-title">Map &amp; Social Links</h2>
+               <p>
+                  Our demo office location is set to central Kathmandu, Nepal. The map
+                  below shows the general area around Thamel, a popular tourist district.
+               </p>
+               <!-- Google Maps embed centered on Kathmandu, Nepal -->
+               <div style="margin: 0.8rem 0; border-radius: 12px; overflow: hidden;">
+                  <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.214699303263!2d85.3157!3d27.708955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19097c1e8a27%3A0x96e65e6a85ee661!2sKathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2snp!4v1700000000000"
+                     width="100%"
+                     height="320"
+                     style="border:0;"
+                     allowfullscreen=""
+                     loading="lazy"
+                     referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+               </div>
+               <ul class="meta-list">
+                  <li><span class="meta-label">Example address:</span> Thamel, Kathmandu, Nepal</li>
+                  <li><span class="meta-label">Example phone:</span> +977 1 555 5555</li>
+                  <li><span class="meta-label">Example email:</span> info@namastetrekandtours.com</li>
+               </ul>
+               <div class="chip-row" style="margin-top:0.7rem;">
+                  <span class="chip">Kathmandu, Nepal</span>
+                  <span class="chip">Thamel Area</span>
+                  <span class="chip">Demo Location</span>
+               </div>
+            </div>
+         </section>
+         <section class="section">
+            <div class="card form-card">
+               <h2 class="card-title">Website Author &amp; Update Information</h2>
+               <ul class="meta-list">
+                  <li><span class="meta-label">Author:</span> Adarsh Paudel</li>
+                  <li><span class="meta-label">Course:</span> CIS 275 - Internet Literacy Fall 2025: CIS275-43</li>
+                  <li><span class="meta-label">Institution:</span> California State University Dominguez Hills</li>
+                  <li><span class="meta-label">Creation Date:</span> November 20, 2025 (Week 13)</li>
+                  <li><span class="meta-label">Last Update:</span> December 5, 2025 (Week 15)</li>
+                  <li><span class="meta-label">Contact Author: Adarsh Paudel</span>
+                     <a href="apaudl1@toromail.csudh.edu">
+                     apaudl1@toromail.csudh.edu
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+      </main>
+      <footer class="site-footer">
+         <div class="footer-inner">
+            <span>Demo website for class project.</span>
+            <span>Created by Adarsh Paudel · <a href="contact.html">Contact the author</a></span>
+         </div>
+      </footer>
+   </body>
+</html>
